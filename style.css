@@ -289,8 +289,12 @@ ul{
 		align-self: center;
 		text-align: center;
 	}
-
-
+.flip-card:hover .flip-card-inner{
+  transform: none;
+}
+.flip-card:active .flip-card-inner{
+  transform: rotateY(180deg);
+}
 }	
 
 @media (max-width: 568px) {
