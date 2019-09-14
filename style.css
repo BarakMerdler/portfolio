@@ -135,7 +135,7 @@ p{
     text-align: center;
     align-items: center;
     padding: 20px 0px;
-    opacity: 0;
+
 
 }
 .about-me{
@@ -146,7 +146,7 @@ p{
     background-color: black;
     color: white;
     padding: 15px 15px;
-    transform: translateX(-100%);
+
 
 }
 
@@ -163,7 +163,7 @@ p{
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
-    
+
 }
 
 .skill-container{
@@ -228,7 +228,7 @@ ul{
     text-align: center;
     padding: 30px 0px;
    	text-shadow: 4px 4px 4px rgba(0,0,0,0.25);
-   
+
 }
 
 .contact-container{
@@ -253,11 +253,6 @@ ul{
 	width: 100%;
 
 }
-.contact-container h2{
-	text-decoration: none;
-	color: white;
-
-}
 
 
 @media (max-width: 1024px) {
@@ -274,7 +269,7 @@ ul{
 	.contact-container div h2{
 		font-size: 28px;
 		}
-	
+
 	.contact-container{
 		display: grid;
 		grid-template-rows: 10% 1fr 3fr 10%;
@@ -289,12 +284,8 @@ ul{
 		align-self: center;
 		text-align: center;
 	}
-.flip-card:hover .flip-card-inner{
-  transform: none;
-}
-.flip-card:active .flip-card-inner{
-  transform: rotateY(180deg);
-}
+
+
 }	
 
 @media (max-width: 568px) {
@@ -330,11 +321,12 @@ ul{
 .swiper-container h1{
   padding: 0px;
   }
-  .contact-container div h2{
+  	.contact-container div h2{
 		font-size: 20px;
 		}
-.links h3{
+		.links h3{
 		transform: translateY(50%);
 	}
-}
 
+
+} 
