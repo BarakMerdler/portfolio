@@ -255,6 +255,11 @@ ul{
 	color: white;
 
 }
+.contact-container h2{
+	text-decoration: none;
+	color: white;
+
+}
 
 
 @media (max-width: 1024px) {
