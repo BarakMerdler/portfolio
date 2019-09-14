@@ -95,14 +95,7 @@
   .flip-card:hover .flip-card-inner {
   transform: none;
 }
-  .flip-card:focus .flip-card-inner {
-  transform: rotateY(180deg);
-  
-  }
-  .flip-card:active .flip-card-inner {
-  transform: rotateY(180deg);
-  
-  }
+
 }
 
 
